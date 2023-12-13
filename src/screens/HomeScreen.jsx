@@ -21,7 +21,7 @@ const HomeScreen = () => {
             <StatusBar backgroundColor="black" />
       <View className="mx-auto">
         <View className="mt-6 flex-row justify-between items-center">
-        <Text style={{fontSize: hp(2.8), fontFamily: "Space-Mono"}} className="text-purple-200 font-bold mr-24">Space Employeer</Text>
+        <Text className="text-purple-200 font-bold mr-24">Space Employeer</Text>
         <TouchableOpacity className="border border-red-400 rounded-3xl">
         <Image  source={require("../../assets/images/avatar.png")} className="h-[50px] w-[50px] rounded-3xl"/>
         </TouchableOpacity>
